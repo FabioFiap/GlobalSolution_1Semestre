@@ -13,9 +13,6 @@ public abstract class Parcelado extends Servico {
 		this.valorTotal = valorTotal;
 		this.juros = juros;
 		this.qntParcelas = qntParcelas;
-		
-		//TODO: qntParcelas não pode ser 0
-		valorParcelas = valorTotal / qntParcelas;
 	}
 	
 }
